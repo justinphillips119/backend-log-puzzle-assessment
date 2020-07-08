@@ -46,6 +46,7 @@ def read_urls(filename):
 
 
 def download_images(img_urls, dest_dir):
+    
     """Given the URLs already in the correct order, downloads
     each image into the given directory.
     Gives the images local filenames img0, img1, and so on.
@@ -98,3 +99,4 @@ def main(args):
 
 if __name__ == '__main__':
     main(sys.argv[1:])
+
